@@ -1,10 +1,23 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  background-color: yellow;
+  position: relative;
 }
 .head {
+  font-family: 'BhuTuka Expanded One', cursive;
+  background-color: orange;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .row {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* .row is used in ./index.js not in the html filee */
 }
 

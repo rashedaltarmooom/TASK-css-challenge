@@ -1,15 +1,29 @@
 /* Add your code in each class */
-body {
+body { 
+  background-color: #490b72;
 }
 .container {
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  background-color: white;
+  margin: 50px;
+  background-image: url("harrypotter.jpg");
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
 .movie-card {
 }
 .movie-image {
+  
 }
 .movie-details-container {
+  
 }
 .descriptions {
+  
 }
 
 /*A gift from us!*/

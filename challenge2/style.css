@@ -1,0 +1,45 @@
+body {
+    background-image: url("pokemon-bg.jpg");
+    background-color: #cccccc;
+   }
+
+.flex-container {
+    border: 5px solid red;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    background-color: white;
+    margin: 150px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container{
+    position: center;
+  }
+
+  .flex-container {
+    margin: auto;
+    width: 30%;
+    border: 5px solid #ff0000;
+    padding: 10px;
+    }
+
+h3 {
+    color: rgb(247, 6, 6); /*This indicates the font color. Change this, and it will change initially*/
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+h5 {
+    color: rgb(248, 2, 2); /*This indicates the font color. Change this, and it will change initially*/
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
