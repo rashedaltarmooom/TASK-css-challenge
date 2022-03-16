@@ -2,7 +2,7 @@
 .container {
   height: 300px;
   width: 400px;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: scroll; /* Add vertical scrollbar */
@@ -10,13 +10,14 @@
 .head {
   font-family: 'BhuTuka Expanded One', cursive;
   background-color: rgb(255, 136, 0);
-  position: -webkit-sticky; /* Safari */
+  text-align: center;
   position: sticky;
   top: 0;
 }
 
 .row {
   background-color: rgb(229, 255, 0);
+  color: rgb(0, 0, 0);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* .row is used in ./index.js not in the html filee */
 }
